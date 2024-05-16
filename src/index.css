@@ -1,0 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Poetsen+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Poetsen+One&display=swap');
+.input{
+    background-color: greenyellow;
+    width: 350px;
+    padding: 10px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 20px;
+    border-style: solid;
+    border-width: 4px;
+}
+.input h1{
+    font-family: "Oswald", sans-serif;
+}
+.input input{
+    padding: 7px;
+    font-weight: bold;
+    border: none;
+    border-radius: 20px;
+}
+.input button{
+    margin-top: 6px;
+    border: none;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: rgb(0, 157, 255);
+    color: black;
+}
+.input button:hover{
+    background-color: rgb(0, 114, 185);
+}
+.cont{
+    display: flex;
+    justify-content: center;
+}
+table,th, td{
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+    text-align: center;
+    font-family: "Poetsen One", cursive;
+}
+table{
+    overflow: auto;
+    width: 100%;
+    background-color: rgb(0, 157, 255);
+}
