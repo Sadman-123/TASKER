@@ -2,14 +2,15 @@ import React from 'react'
 
 function Tr(props) {
   return (
-    <tr>
-    <td>
+    <div className='cardx'>
+      <img src={props.url}/> 
+    <h1>
         {props.task}
-    </td>
-    <td>
+    </h1>
+    <h3>
         {props.time}
-    </td>
-</tr>
+    </h3>
+</div>
   )
 }
 

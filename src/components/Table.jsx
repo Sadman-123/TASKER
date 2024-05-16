@@ -45,20 +45,10 @@ function Table() {
   }, []);
 
   return (
-    <div>
-      <table>
-        <thead>
-          <tr>
-            <th>Task</th>
-            <th>Time</th>
-          </tr>
-        </thead>
-        <tbody>
+    <div className='contx'>
           {dat.map((item, index) => (
-            <Tr key={index} task={item.task} time={item.time} />
+            <Tr key={index} task={item.task} time={item.time} url={item.fileUrl}/>
           ))}
-        </tbody>
-      </table>
     </div>
   );
 }

@@ -34,15 +34,24 @@
     display: flex;
     justify-content: center;
 }
-table,th, td{
-    border: 1px solid black;
-    border-collapse: collapse;
-    padding: 10px;
+
+.cardx{
+    border-style: solid;
+    border-width: 4px;
+    width: max-content;
     text-align: center;
-    font-family: "Poetsen One", cursive;
-}
-table{
-    overflow: auto;
-    width: 100%;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
     background-color: rgb(0, 157, 255);
+}
+.cardx img{
+    height: 100px;
+    width: 200px;
+    border-radius: 20px;
+}
+.contx{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
 }
